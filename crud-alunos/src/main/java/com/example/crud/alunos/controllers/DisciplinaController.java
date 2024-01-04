@@ -1,5 +1,7 @@
-package com.example.crud.alunos;
+package com.example.crud.alunos.controllers;
 
+import com.example.crud.alunos.model.Disciplina;
+import com.example.crud.alunos.repository.DisciplinaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

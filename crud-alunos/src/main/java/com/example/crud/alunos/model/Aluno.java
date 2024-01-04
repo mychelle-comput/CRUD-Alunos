@@ -1,4 +1,4 @@
-package com.example.crud.alunos;
+package com.example.crud.alunos.model;
 
 import jakarta.persistence.*;
 

@@ -1,12 +1,15 @@
-package com.example.crud.alunos;
+package com.example.crud.alunos.controllers;
 
+import com.example.crud.alunos.model.AlunosDisciplinas;
+import com.example.crud.alunos.model.AlunosDisciplinasId;
+import com.example.crud.alunos.repository.AlunosDisciplinasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /* Usado para API REST */
 
 @RestController
-@RequestMapping("/alunosDisciplinass-disciplinas")
+@RequestMapping("/alunos-disciplinas")
 public class AlunosDisciplinasController {
 
     @Autowired
